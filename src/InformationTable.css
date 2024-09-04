@@ -1,0 +1,58 @@
+.tableContainer {
+    max-width: 1280px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dce1e7;
+}
+
+.tableHead {
+    background-color: rgb(51, 125, 100);
+    color: #fff;
+    padding: 0.5rem 1rem ;
+}
+
+.tableRow {
+    border: 1px solid #e2e8f0;
+}
+
+.tableRow td {
+    padding: 0.5rem 1rem;
+}
+
+.buttonConteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.buttonConteiner button {
+    display: flex;
+    align-items: center;
+    background-color: #29a95e;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border: 1px solid #29a95e;
+    border-radius: 0.125rem;
+    cursor: pointer;
+}
+
+span {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #29a95e;
+    color: #fff;
+    border: 1px solid #29a95e;
+    border-radius: 0.125rem;
+}
