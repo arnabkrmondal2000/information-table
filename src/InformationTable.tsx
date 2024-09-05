@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import axios from 'axios';
 import './InformationTable.css'
+import ButtonComponent from './Button';
 
 interface User {
     id: number;
@@ -88,9 +89,11 @@ const InformationData = () => {
             </table>
             
             <div className='buttonConteiner'>
-                <button onClick={prevPage}> Previous </button>
+                {/* <button onClick={prevPage}> Previous </button> */}
+                <ButtonComponent lable = 'Previous' onClick = {prevPage} />
                  <span>{curretPage}</span>
-                <button onClick={nextPage}> Next </button>
+                {/* <button onClick={nextPage}> Next </button> */}
+                <ButtonComponent lable = 'Next' onClick = {nextPage}/>
             </div>
          </div>
         </>

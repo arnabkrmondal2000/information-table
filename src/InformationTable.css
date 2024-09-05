@@ -32,7 +32,7 @@
     margin-top: 4rem;
 }
 
-.buttonConteiner button {
+/* .buttonConteiner button {
     display: flex;
     align-items: center;
     background-color: #29a95e;
@@ -44,10 +44,10 @@
     border: 1px solid #29a95e;
     border-radius: 0.125rem;
     cursor: pointer;
-}
-.buttonConteiner button:hover {
+} */
+/* .buttonConteiner button:hover {
     background-color: #1c6a3c;
-}
+} */
 
 span {
     font-size: 1.125rem;
